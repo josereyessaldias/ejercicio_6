@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Curriculum | Ejercicio 6</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {
+			margin:0;
+		}
+		
+
+		.row{
+			clear: both;
+		}
+
+
+		.col-sm-12{
+			width: 100%; 
+			padding-left:7px;
+			padding-right:7px;
+			box-sizing: border-box;
+			font-size: 12px;
+		}
+
+		.col-sm-2{
+			width: 16.67%;
+			float:left;
+		}
+
+		.col-sm-10{
+			width: 83.33%;
+			float:left;
+		}
+
+		.col-sm-8{
+			width: 66.67%;
+			float:left;
+
+		}
+
+		.col-sm-6{
+			width: 50%;
+			float:left;
+		}
+
+		.col-sm-4{
+			width: 33.33%;
+			float:left;
+
+		}
+
+		
+		.container {
+			width: 100%;
+			font-family: verdana;
+
+			
+		}
+
+		.header{
+			padding: 30px 0px 10px 0px;
+			text-align: center;
+			border-bottom: 3px solid gray;
+
+		}
+		.foto {
+			margin-bottom: 20px;
+			width:120px;
+			border-radius: 160px;
+		}
+
+		h1{
+			
+			margin:0;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+
+		.resaltado{
+			color:rgb(250,100,40);
+		}
+
+		.acerca{
+			padding-top: 10px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+		.barra {
+			background-color: rgb(250,100,40);
+			color:white;
+			padding-top: 1px;
+			padding-bottom: 1px;
+			margin: 2px 0 2px 0;
+			padding-left: 7px;
+			box-sizing: border-box;
+		}
+
+		button{
+			background-color: rgb(150,20,80);
+			color: white;
+			
+		}
+
+		.footer {
+			color:gray;
+			font-size: 12px;
+			text-align: right;
+			border-top: solid rgb(237,237,237) 1px;
+			margin-top: 20px;
+
+		}
+		.estrella {
+			display: block;
+			text-align: right;
+			font-size: 12px;
+			font-family: verdana;
+
+		}
+		hr {
+			border: solid 0.05px rgb(237,237,237);
+
+		}
+
+		.cuadro {
+			background-color:rgb(237,237,237);
+			box-sizing: border-box;
+			padding: 2px 0 2px 5px;
+			margin-bottom: 5px;  
+		}
+
+		@media (min-width: 700px){
+
+		.col-md-8{
+			width: 66.67%;
+			float:left;
+		}
+
+		.col-md-4{
+			width: 33.33%;
+			float:left;
+		}
+
+		body{
+			margin: 120px 5% 5% 5%;
+			background-color: white;
+		}
+
+		html{
+			background-color: rgb(237,237,237);
+
+		}
+
+		.foto {
+			position: absolute;
+			top: 40px;
+			left:43%;
+			width:160px;
+			border-radius: 160px;
+
+
+		}
+		.header{
+			padding: 110px 0px 10px 0px;
+			text-align: center;
+			border-bottom: 3px solid rgb(237,237,237);
+		}
+
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+<div class="container col-sm-12">
+
+	<div class="header">
+		<img src="foto2.png" alt="mi foto" class="foto">
+		<h1>HOLA MI NOMBRE ES <span class="resaltado">MIGUEL</span> Y ESTE ES MI RESUMEN</h1>
+	</div>
+
+	<div class="col-sm-12 col-md-8 acerca row">
+		<h1 class="resaltado"> // ACERCA DE</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. </p>
+	</div>
+	<div class="col-sm-12 col-md-4 acerca">
+		<h1 class="resaltado"> // CONTACTO</h1>
+		<ul>
+			<li><strong>Email:</strong> miguel@ewok.cl</li>
+			<li><strong>Skype:</strong> miguelcantillana</li>
+			<li><strong>Twitter:</strong> @miguelinux</li>
+			<li><strong>Facebook:</strong> miguelcantillana</li>
+		</ul>
+	</div>
+
+	<div class="col-sm-12 col-md-8 acerca row">
+		<h1 class="resaltado"> // EDUCACIÓN</h1>
+		<div class="col-sm-2"><strong>2012</strong></div>
+
+		<div class="col-sm-10 cuadro"><strong>I was born in Katowice</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.</div>
+
+		<div class="col-sm-2"><strong>1986</strong></div>
+
+		<div class="col-sm-10 cuadro"><strong>I was born in Katowice</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.</div>
+
+	</div>
+
+	<div class="col-sm-12 col-md-4 acerca">
+		<h1 class="resaltado"> // SKILLS</h1>
+		<div class="col-sm-10 barra row">PYTHON</div>
+		<div class="col-sm-8 barra row">HTML</div>
+		<div class="col-sm-6 barra row">CSS</div>
+		<div class="col-sm-4 barra row">JS</div>
+		<div class="col-sm-2 barra row">PHP</div>
+
+
+	</div>
+
+	<div class="col-sm-12 col-md-8 acerca row">
+		<h1 class="resaltado"> // EXPERIENCIA</h1>
+		<div class="col-sm-2"><strong>Google</strong><br>2013-2014</div>
+
+		<div class="col-sm-10"><strong>Front-end developer / php programmer</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.</div>
+
+		<div class="col-sm-2"><strong>Google</strong><br>2013-2014</div>
+
+		<div class="col-sm-10"><strong>Front-end developer / php programmer</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.</div>
+
+	</div>
+
+	<div class="col-sm-12 col-md-4 acerca">
+		<h1 class="resaltado"> // IDIOMAS</h1>
+
+		<div class="col-sm-4">Inglés</div>
+		<div class="estrella col-sm-8"><span style="color:rgb(250,100,40)">&#9733; &#9733; &#9733;</span><span style="color:gray"> &#9733; &#9733;</span></div>
+		<hr>
+
+
+		<div class="col-sm-4">Español</div>
+		<div class="col-sm-8 estrella"><span style="color:rgb(250,100,40)">&#9733; &#9733; &#9733; &#9733;</span><span style="color:gray"> &#9733;</span></div>
+		<hr>
+
+	</div>
+
+	<div class="col-sm-12 col-md-4 acerca">
+		<h1 class="resaltado"> // HOBBIES</h1>
+		<button>Fotografía</button>
+		<button>Deporte</button>
+		<button>Música</button>
+	</div>
+
+</div>
+
+<div class="footer col-sm-12 row">
+	<p>Curso desarrollo Frontend 2015</p>
+
+<div>
+
+
+
+
+</body>
+</html>
